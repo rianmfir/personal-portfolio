@@ -1,0 +1,47 @@
+.navbar-brand>span {
+    font-weight: 700;
+    font-size: 0.85em;
+    color: whitesmoke;
+}
+
+.n-circel {
+    position: absolute;
+    width: 49px;
+    height: 49px;
+    border-radius: 50%;
+    background: linear-gradient(var(--darkPurple), var(--darkBlue));
+    z-index: -9;
+    text-align: start;
+    left: 0.9%;
+}
+
+.nav-link {
+    font-weight: 300 !important;
+    color: var(--gray) !important;
+}
+
+.nav-link:hover {
+    color: var(--darkPurple) !important;
+    font-weight: 700 !important;
+}
+
+@media screen and (max-width: 992px) {
+    .navbar-brand {
+        font-size: 1em !important;
+    }
+
+    .n-circel {
+        transform: scale(1);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .navbar-brand {
+        font-size: 0.9em !important;
+    }
+
+    .n-circel {
+        transform: scale(0.9);
+    }
+
+}

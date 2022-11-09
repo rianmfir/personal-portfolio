@@ -1,0 +1,55 @@
+.cardSkills {
+    width: 20rem;
+    height: 23rem;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.26);
+    border: 6px solid var(--blueCard);
+    box-shadow: var(--boxShadow);
+    border-radius: 20px;
+    padding-bottom: 2rem;
+}
+
+.cardSkills span {
+    font-size: 1.2rem;
+}
+
+.cardSkills>img {
+    transform: scale(0.6);
+    margin-bottom: -2rem;
+}
+
+.skills_content {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    row-gap: 1rem;
+}
+
+.skills_details {
+    display: flex;
+    gap: 0.3rem;
+
+}
+
+@media screen and (max-width: 768px) {
+    .cardSkills {
+        width: 60%;
+        height: 23rem;
+        margin: 0 auto;
+    }
+
+    .skills_details {
+        border: 1px solid red;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    .cardSkills {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    .cardSkills {
+        height: 27rem;
+    }
+}

@@ -1,0 +1,14 @@
+.scrollToButton {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: var(--darkPurple);
+    border-radius: 50%;
+    z-index: 333;
+
+}
+
+.scrollToButton:hover {
+    background-color: hsl(250, 55%, 50%);
+    cursor: pointer;
+}

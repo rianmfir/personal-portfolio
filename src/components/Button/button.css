@@ -1,0 +1,22 @@
+.button {
+    /* background: linear-gradient(180deg, #1d192e 26.71%, #634ade 99.36%); */
+    background: linear-gradient(180deg, var(--darkBlue) 26.71%, var(--darkPurple) 99.36%);
+    box-shadow: 0px 20px 24px 3px rgba(40, 124, 251, 0.42);
+    border-radius: 34px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    /* padding: 11px 26px 11px 26px; */
+    padding: 11px 26px;
+
+    /* width: 7rem; */
+    width: auto;
+    height: 3rem;
+}
+
+.button:hover {
+    background: white;
+    cursor: pointer;
+    border: 1px solid var(--darkPurple);
+    color: var(--darkPurple);
+}
