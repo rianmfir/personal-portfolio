@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import { Contact, Footer, Intro, Navbar, Portfolio, ScrollToTopButton, Services } from './components';
 

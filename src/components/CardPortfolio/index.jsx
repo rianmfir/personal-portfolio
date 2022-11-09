@@ -16,12 +16,12 @@ const CardPortfolio = (props) => {
                             <div className="cp-title">{props.title}</div>
                             <div className="cp-text">{props.describe}</div>
                             <div className="cp-button-wrapper gap-5">
-                                <a href={props.demo} target="_blank"
+                                <a href={props.demo} target="_blank" rel="noreferrer"
                                     className="cp-project-button cp-button cp-button-flex">
                                     Demo
                                     <Play className="cp-button-icon" />
                                 </a>
-                                <a href={props.git} target="_blank"
+                                <a href={props.git} target="_blank" rel="noreferrer"
                                     className="cp-project-button cp-button cp-button-flex">
                                     Github
                                     <Play className="cp-button-icon" />
